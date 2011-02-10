@@ -1,0 +1,21 @@
+<div class="content-box" >
+
+    <h2> #i18n{ganalytics.manage_ganalytics.pageTitle}</h2>
+    <br />
+    <center><p><h3>Le code actuel est : <b>${ganalytics_code.code}</b></h3></p></center>
+    <form method="post"  name="manage_ganalytics" id="manage_ganalytics" action="jsp/admin/plugins/ganalytics/doManageGanalyticsCode.jsp">
+
+    <p>
+        <label for="description" >#i18n{ganalytics.manage_ganalytics.codeLabel} * : </label>
+        <input type="text" id="code_google" name="code_google" size="60" maxlength="50" tabindex="1" value="${ganalytics_code.code}" />
+    </p>
+    <p>
+        <input type="submit" value="#i18n{ganalytics.manage_ganalytics.buttonModify}" class="button" tabindex="3" />
+    </p>
+    </form>
+
+</div>
+
+
+
+

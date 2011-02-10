@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<title>Introduction</title>
+	</properties>
+	<body>
+		<section name="Descriptif du plugin">
+			<subsection name="Introduction">
+				<p>	
+					Le plugin Ganalytics a pour but d'inserer un code google analytics dans la page web afin d'avoir des statistiques.
+					Vous pouvez modifier ce code facilement.
+				</p> 
+			</subsection>
+		</section>
+	</body>
+</document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<title>Gestion du code Google Analytic</title>
+	</properties>
+	<body>
+		<section name="Gestion du code Google Analytic">
+			<p>
+				Cette section est une démo d'utilisation du plugin Ganalytics.
+			</p>
+			<ul>
+				<li>Création ou modification du code Google Analytic</li>
+			</ul>
+
+			<subsection name="Création ou modification du code Google Analytic">
+				<p>
+					L'interface de saisie suivante récapitule les
+					informations nécessaires à la création ou la modification du code Google Analytic.
+				</p>
+				<p>
+				<img src="user/images/manage_ganalytics.png"/>
+				</p>
+				<p>
+				Entrez votre code google analytic dans le champs et cliquez sur le bouton Créer/Modifier.
+				</p>
+			</subsection>
+		</section>
+	</body>
+</document>
