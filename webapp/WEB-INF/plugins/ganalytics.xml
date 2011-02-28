@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<plug-in>
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
     <name>ganalytics</name>
     <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
-    <version>3.0</version>
-    <documentation></documentation>
-    <installation></installation>
-    <changes></changes>
-    <user-guide></user-guide>
+    <version>0.0.1</version>
+    <documentation/>
+    <installation/>
+    <changes/>
+    <user-guide/>
     <description>ganalytics.plugin.description</description>
     <provider>ganalytics.plugin.provider</provider>
     <provider-url>http://your.web.site.com</provider-url>
     <icon-url>images/admin/skin/plugins/ganalytics/folder_home.PNG</icon-url>
-    <copyright></copyright>
+    <copyright/>
     <db-pool-required>1</db-pool-required>
 
     <!-- Admin features parameters -->
@@ -22,7 +21,7 @@
             <feature-description>ganalytics.adminFeature.ganalytics_management.description</feature-description>
             <feature-level>0</feature-level>
             <feature-url>jsp/admin/plugins/ganalytics/getManageGanalyticsCode.jsp</feature-url>
-            <feature-icon-url></feature-icon-url>
+            <feature-icon-url/>
             <feature-group> CONTENT </feature-group>
       </admin-feature>
     </admin-features>
