@@ -70,13 +70,19 @@ public class GanalyticsInclude implements PageInclude
     {
         _plugin = PluginService.getPlugin( PLUGIN_NAME );
 
-        Map<String, Object> model = new HashMap<String, Object>(  );
-        Ganalytics ganalyticsCode = GanalyticsHome.include( _plugin );
-        model.put( MARK_INCLUDE_GANALYTICS_CODE, ganalyticsCode );
-
-        HtmlTemplate template = AppTemplateService.getTemplate( TEMPLATE_INCLUDE_GANALYTICS_CODE,
-                request.getLocale(  ), model );
-
-        rootModel.put( MARK_GANALYTICS, template.getHtml(  ) );
+        if( _plugin != null && request != null )
+        {
+	        Map<String, Object> model = new HashMap<String, Object>(  );
+	        Ganalytics ganalyticsCode = GanalyticsHome.include( _plugin );
+	        model.put( MARK_INCLUDE_GANALYTICS_CODE, ganalyticsCode );
+	
+	        HtmlTemplate template = AppTemplateService.getTemplate( TEMPLATE_INCLUDE_GANALYTICS_CODE,
+	                request.getLocale(  ), model );
+	
+	        rootModel.put( MARK_GANALYTICS, template.getHtml(  ) );
+        }
+        else {
+	        rootModel.put( MARK_GANALYTICS, "" );
+        }
     }
 }
