@@ -8,8 +8,9 @@
 			<subsection name="Introduction">
 				<p>	
 					Le plugin Ganalytics a pour but d'inserer un code google analytics dans la page web afin d'avoir des statistiques.
-					Vous pouvez modifier ce code facilement.
+					Ce code se gère dans un AdminFeature dans le backoffice.
 				</p> 
+				<p>Inclure ${ganalytics?default("")} dans le page_frameset.html</p>
 			</subsection>
 		</section>
 	</body>

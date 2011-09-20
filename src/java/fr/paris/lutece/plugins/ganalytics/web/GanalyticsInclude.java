@@ -68,8 +68,7 @@ public class GanalyticsInclude implements PageInclude
      */
     public void fillTemplate( Map<String, Object> rootModel, PageData data, int nMode, HttpServletRequest request )
     {
-        String strPluginName = request.getParameter( PLUGIN_NAME );
-        _plugin = PluginService.getPlugin( strPluginName );
+        _plugin = PluginService.getPlugin( PLUGIN_NAME );
 
         Map<String, Object> model = new HashMap<String, Object>(  );
         Ganalytics ganalyticsCode = GanalyticsHome.include( _plugin );
