@@ -1,0 +1,1 @@
+INSERT INTO ganalytics_code (ganalytics_code) VALUES ('UA-XXXXXXXX');
