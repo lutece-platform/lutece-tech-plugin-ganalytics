@@ -1,19 +1,23 @@
-<div class="content-box" >
-
-    <h2> #i18n{ganalytics.manage_ganalytics.pageTitle}</h2>
-    <br />
-    <center><p><h3>Le code actuel est : <b>${ganalytics_code.code}</b></h3></p></center>
-    <form method="post"  name="manage_ganalytics" id="manage_ganalytics" action="jsp/admin/plugins/ganalytics/doManageGanalyticsCode.jsp">
-
-    <p>
-        <label for="description" >#i18n{ganalytics.manage_ganalytics.codeLabel} * : </label>
-        <input type="text" id="code_google" name="code_google" size="60" maxlength="50" tabindex="1" value="${ganalytics_code.code}" />
-    </p>
-    <p>
-        <input type="submit" value="#i18n{ganalytics.manage_ganalytics.buttonModify}" class="button" tabindex="3" />
-    </p>
-    </form>
-
+<div class="row-fluid" >
+	<div class="span12">
+		<fieldset>
+		<legend> #i18n{ganalytics.manage_ganalytics.pageTitle}</legend>
+		<h3>Le code actuel est : <strong>${ganalytics_code.code}</strong></h3>
+		<form class="form-horizontal" method="post"  name="manage_ganalytics" id="manage_ganalytics" action="jsp/admin/plugins/ganalytics/doManageGanalyticsCode.jsp">
+		<div class="control-group">
+		<label class="control-label" for="description" >#i18n{ganalytics.manage_ganalytics.codeLabel} * : </label>
+			<div class="controls">
+				<input type="text" id="code_google" name="code_google" size="60" maxlength="50" tabindex="1" value="${ganalytics_code.code}" />
+			</div>
+		</div>
+		<div class="control-actions">
+			<button class="btn btn-primary btn-small" type="submit" >
+				<i class="icon-ok icon-white"></i>&nbsp;#i18n{ganalytics.manage_ganalytics.buttonModify}
+			</button>
+		</div>
+		</fieldset>
+		</form>
+	</div>
 </div>
 
 
