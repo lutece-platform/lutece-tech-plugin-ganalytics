@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
     <name>ganalytics</name>
     <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
-    <version>0.0.5</version>
+    <version>1.0.0</version>
     <documentation/>
     <installation/>
     <changes/>
@@ -9,7 +9,7 @@
     <description>ganalytics.plugin.description</description>
     <provider>ganalytics.plugin.provider</provider>
     <provider-url>http://your.web.site.com</provider-url>
-    <icon-url>images/admin/skin/plugins/ganalytics/folder_home.PNG</icon-url>
+    <icon-url>images/admin/skin/plugins/ganalytics/ganalytics.png</icon-url>
     <copyright/>
     <db-pool-required>1</db-pool-required>
 
